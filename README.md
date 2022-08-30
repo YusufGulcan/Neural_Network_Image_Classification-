@@ -9,18 +9,22 @@ This project aims to classify objects on images using a convolutional neural net
 ## Project Break Down
 
 - Data collection and Labeling
+
  This part is pretty flexible, you can use pictures involving the object you want to classify are acceptable. Labeling is done through grouping the images in different folders.
 
-- Loading and Preprocessing the 
+- Loading and Preprocessing 
+
 The data is read from a source by the code so python 'Os' library is essential here. The directories are defined and read by a computer vision library.
 The data is converted and scaled into an appropriate format and finally batches for training, evaluation and testing are created. Form pipelines for the processing step. 
 
 - Modelling the Neural Network Algorithm 
+
 Decide on the layer types and neuron numbers; create layers and put them in order. Train the model and evaluate the result. Iterate the same process in case an optimization opportunity is seen. Finally, save the model.
 
 ![image](https://user-images.githubusercontent.com/105684729/187367921-a323d01b-f424-43d7-b3a4-96f1ed06dbbe.png)
  
 ### Libraries
+
 - Os , cv2, Keras, Tensorflow, Pandas, NumPy
 
 
